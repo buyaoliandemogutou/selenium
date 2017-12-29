@@ -1,6 +1,8 @@
 package com.Techshine.base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class DriverBase {
 	public WebDriver driver;
@@ -11,5 +13,12 @@ public class DriverBase {
 	
 	public void stop(){
 		driver.close();
+	}
+	/*
+	 * 封装Element方法
+	 */
+	public WebElement findElement(By by){
+		WebElement element=driver.findElement(by);
+		return element;
 	}
 }
