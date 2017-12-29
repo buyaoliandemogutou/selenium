@@ -42,28 +42,7 @@ public class login1 extends baseDriver{
 		System.out.println(name);
 		driver.close();
 	}
-	/*
-	 * 封装By
-	 */
-	public By by(String username) throws Exception{
-		ProUtil properties=new ProUtil("element.properties");
-		String locator=properties.getPro(username);
-		String locatorType=locator.split(">")[0];
-		String locatorId=locator.split(">")[1];
-		
-		if (locatorType.equals("id")) {
-			return By.id(locatorId);
-		} else if(locatorType.equals("name")) {
-			return By.name(locatorId);
-		}else if(locatorType.equals("className")) {
-			return By.className(locatorId);
-		}else if(locatorType.equals("linkText")) {
-			return By.linkText(locatorId);
-		}else if(locatorType.equals("xpath")) {
-			return By.xpath(locatorId);
-		}else
-		return null;
-	}
+	
 	
 	/*
 	 * 封装element

@@ -32,7 +32,7 @@ public class ProUtil {
 		return properties;
 	}
 	
-	public String getPro(String key) throws IOException{
+	public String getPro(String key){
 		if (prop.containsKey(key)) {
 			String username=prop.getProperty(key);
 			return username;

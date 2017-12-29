@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.Techshine.login1"/>
+      <class name="com.Techshine.testCase.login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
