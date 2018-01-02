@@ -13,7 +13,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <dependencies> 		
+  <dependencies> 
+  		
   	<dependency>
 	    <groupId>io.github.pityka</groupId>
 	    <artifactId>fileutils_2.12</artifactId>
@@ -52,5 +53,6 @@
 	    <artifactId>commons-io</artifactId>
 	    <version>2.6</version>
 	</dependency>
+		
   </dependencies> 
 </project>

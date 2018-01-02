@@ -2,7 +2,6 @@ package com.Techshine.testCase;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-
 import com.Techshine.base.DriverBase;
 import com.Techshine.business.LoginPro;
 

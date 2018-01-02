@@ -11,7 +11,7 @@ public class LoginPro {
 	public void login(String user,String pwd){
 		if(lph.assertLoginPage()){
 			lph.sendKeysUsers(user);
-			lph.sendKeysUsers(pwd);
+			lph.sendKeysPwd(pwd);
 			lph.clickAutoSignin();
 			lph.clickLoginBtn();
 		}else{
