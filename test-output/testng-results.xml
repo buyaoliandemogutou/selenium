@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9629" started-at="2018-01-02T08:36:19Z" finished-at="2018-01-02T08:36:29Z">
+  <suite name="Default suite" duration-ms="8928" started-at="2018-01-02T09:02:19Z" finished-at="2018-01-02T09:02:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9629" started-at="2018-01-02T08:36:19Z" finished-at="2018-01-02T08:36:29Z">
+    <test name="Default test" duration-ms="8928" started-at="2018-01-02T09:02:19Z" finished-at="2018-01-02T09:02:28Z">
       <class name="com.Techshine.testCase.login">
-        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.Techshine.testCase.login@6e9a5ed8]" name="getLoginHome" duration-ms="8866" started-at="2018-01-02T16:36:19Z" finished-at="2018-01-02T16:36:28Z">
+        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.Techshine.testCase.login@7b4c50bc]" name="getLoginHome" duration-ms="8754" started-at="2018-01-02T17:02:19Z" finished-at="2018-01-02T17:02:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginHome -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.Techshine.testCase.login@6e9a5ed8]" name="testLogin" duration-ms="685" started-at="2018-01-02T16:36:28Z" depends-on-methods="com.Techshine.testCase.login.getLoginHome" finished-at="2018-01-02T16:36:29Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.Techshine.testCase.login@7b4c50bc]" name="testLogin" duration-ms="118" started-at="2018-01-02T17:02:28Z" depends-on-methods="com.Techshine.testCase.login.getLoginHome" finished-at="2018-01-02T17:02:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
